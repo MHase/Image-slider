@@ -28,18 +28,18 @@ $(document).ready(() => {
   $("#slider").on({
     'mouseenter': function() {
       $('span.control_next').animate({
-        'right': "0px" //moves left
+        'right': "0px"
       }, 100);
       $('span.control_prev').animate({
-        'left': "0px" //moves left
+        'left': "0px"
       }, 100);
     },
     'mouseleave': function() {
       $('span.control_next').animate({
-        'right': -btn_width //moves left
+        'right': -btn_width
       });
       $('span.control_prev').animate({
-        'left': -btn_width //moves left
+        'left': -btn_width
       });
     }
   });

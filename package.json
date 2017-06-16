@@ -5,9 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack",
     "dev": "webpack-dev-server --open",
-    "server": "http-server ./dist -o"
+    "build": "webpack && http-server ./dist -o"
   },
   "keywords": [],
   "author": "",
